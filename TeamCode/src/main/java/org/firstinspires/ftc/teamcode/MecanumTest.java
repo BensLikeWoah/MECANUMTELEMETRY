@@ -17,7 +17,7 @@ public class MecanumTest extends LinearOpMode {
 
 
     public void runOpMode() {
-        telemetry.addData("Status", "Initializing");|
+        telemetry.addData("Status", "Initializing");
         telemetry.update();
 
         leftTop = hardwareMap.get(DcMotor.class, "LT");
