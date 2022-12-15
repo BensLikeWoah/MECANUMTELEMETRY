@@ -30,8 +30,8 @@ public class MecanumTest extends LinearOpMode {
 
         leftTop.setDirection(DcMotor.Direction.REVERSE);
         leftBack.setDirection(DcMotor.Direction.REVERSE);
-        rightTop.setDirection(DcMotorSimple.Direction.FORWARD);
-        rightBack.setDirection(DcMotorSimple.Direction.FORWARD);
+        rightTop.setDirection(DcMotor.Direction.FORWARD);
+        rightBack.setDirection(DcMotor.Direction.FORWARD);
 
         telemetry.addData("Status", "Initialized! Code made by Benjamin Streck :)");
         telemetry.update();
@@ -39,7 +39,7 @@ public class MecanumTest extends LinearOpMode {
         waitForStart();
 
         while(opModeIsActive()) {
-            double leftTopPower;
+            /** double leftTopPower;
             double leftBackPower;
             double rightTopPower;
             double rightBackPower;
@@ -72,7 +72,7 @@ public class MecanumTest extends LinearOpMode {
             telemetry.addData("Status", "RT POWER" + rightTop.getPower());
             telemetry.addData("Status", "LB POWER" + leftBack.getPower());
             telemetry.addData("Status", "RB POWER" + rightBack.getPower());
-            telemetry.update();
+            telemetry.update(); */
 
         }
     }
